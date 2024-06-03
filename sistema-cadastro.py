@@ -1,0 +1,13 @@
+import time
+nome = str(input('Digite seu nome: ')).capitalize()
+idade = int(input('Digite sua idade: '))
+CPF = int(input('Digite seu CPF: '))
+Email = str(input('Digite seu Email: '))
+numero = int(input('Digite seu celular: '))
+time.sleep(1)
+print('='*35)
+print(f'Nome: {nome}')
+print(f'Idade: {idade} anos')
+print(f'CPF: {CPF}')
+print(f'Email: {Email}')
+print(f'Celular: {numero}')
